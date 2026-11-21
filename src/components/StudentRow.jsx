@@ -13,7 +13,7 @@ function StudentRow({ id, name, grade, onDelete }) {
         onClick={() => onDelete(id)}
         className="cursor-pointer text-2xl leading-none text-stone-400 hover:text-[#8B1C2C]"
       >
-        Delete
+        ×
       </button>
     </li>
   )
